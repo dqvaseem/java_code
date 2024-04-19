@@ -2,6 +2,7 @@
 import requests
 import subprocess
 
+
 def jfrogUpload():
     #define th eurl , path and authention cred
     url = 'http://65.2.121.53:8082/artifactory/example-repo-local/kubernetes-configmap-reload-0.0.1-SNAPSHOT.jar'
